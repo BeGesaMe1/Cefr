@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../css/output.css">
+</head>
+<body>
+  
+  <!-- npx tailwindcss -i ./css/input.css -o ./css/output.css --watch -->
+
+    <header class=" body-font shadow-2xl">
+        <div class="container mx-auto flex flex-wrap p-5 flex-col md:flex-row items-center justify-between ">
+          <a href="./index.html" class="flex title-font font-medium items-center text-white mb-4 md:mb-0 cursor-pointer">
+            <img src="../logo.png" class="w-[100px] h-[70px] object-contain" alt="">
+            <h3 class="text-black font-semibold">Bilm va malakalarni <br> baholash agentligi</h3>
+          </a>
+          <!-- <nav class="md:ml-auto flex flex-wrap items-center text-base justify-center">
+            <a class="mr-5 hover:text-white">First Link</a>
+            <a class="mr-5 hover:text-white">Second Link</a>
+            <a class="mr-5 hover:text-white">Third Link</a>
+            <a class="mr-5 hover:text-white">Fourth Link</a>
+          </nav> -->
+          <!-- <button class="inline-flex items-center bg-gray-800 border-0 py-1 px-3 focus:outline-none hover:bg-gray-700 rounded text-base mt-4 md:mt-0 ">
+                
+          </button> -->
+
+          <img src="../i.webp" class="w-[40px] h-[40px] cursor-pointer object-contain" alt="">
+
+          <!-- <select name="" id="" class="inline-flex items-center border-0 py-1 px-3 focus:outline-none hover:bg-gray-700 rounded text-base mt-4 md:mt-0 ">
+            <option value="">
+                <img src="./i.webp" alt="">
+            </option>
+          </select> -->
+        </div>
+      </header>
+
+      <section class="w-[60%] mx-auto mt-[100px] rounded-lg shadow-2xl mb-[50px]">
+
+        <h2 class="font-medium text-[23px] border-b p-[20px]">Elektron sertifikat nazorati</h2>
+
+        <form action="Natija" class="w-[100%] h-[50vh]">
+
+            <div class="w-[100%] m-[30px]">
+              <label for="SefrNomer" class="p-2 font-sans text-[#080808b6]">Sertifikat raqami *</label>
+              <input class="border border-[gray] block w-[80%] h-[6vh] m-2 rounded-md pl-1 text-[18px]" id="SefrNomer" type="text" placeholder="Izlash">
+            </div>
+
+            <div class="w-[100%] m-[30px]">
+              <label for="Kod" class="p-2 font-sans text-[#080808b6]">Tekshiruv kodi</label>
+              <span class="block ml-3 font-serif text-[18px]">6 x 7 = </span>
+              <input type="text" class="border border-[gray] block w-[80%] h-[6vh] m-2 rounded-md pl-1 text-[18px]">
+            </div>
+
+            <button class="w-[15%] h-[5vh] border ml-9 rounded-md bg-[#2e4cd4] text-[white]">TEKSHIRISH</button>
+
+            <p class="mt-[30px] ml-[35px]">Izoh: * - Ushbu maydonga sertifikat raqami kiritiladi.</p>
+        </form>
+
+      </section>
+
+
+    
+
+      <footer class="text-gray-400 bg-[#2e4cd4] body-font">
+        <div class="container px-5 py-8 mx-auto flex items-center sm:flex-row flex-col">
+
+          <p class="text-md text-[white] sm:ml-4 sm:pl-4  sm:py-2 sm:mt-0 mt-4">
+            © Bilim va malakalarni baholash agentligi tomonidan taqdim qilinadigan sertifikatlar bazasini tekshirish tizimi 2024
+          </p>
+          <span class="inline-flex sm:ml-auto sm:mt-0 mt-4 justify-center sm:justify-start">
+            <a class="text-white">
+              <svg fill="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-5 h-5" viewBox="0 0 24 24">
+                <path d="M18 2h-3a5 5 0 00-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 011-1h3z"></path>
+              </svg>
+            </a>
+            <a class="ml-3 text-white">
+              <svg fill="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-5 h-5" viewBox="0 0 24 24">
+                <path d="M23 3a10.9 10.9 0 01-3.14 1.53 4.48 4.48 0 00-7.86 3v1A10.66 10.66 0 013 4s-4 9 5 13a11.64 11.64 0 01-7 2c9 5 20 0 20-11.5a4.5 4.5 0 00-.08-.83A7.72 7.72 0 0023 3z"></path>
+              </svg>
+            </a>
+            <a class="ml-3 text-white">
+              <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-5 h-5" viewBox="0 0 24 24">
+                <rect width="20" height="20" x="2" y="2" rx="5" ry="5"></rect>
+                <path d="M16 11.37A4 4 0 1112.63 8 4 4 0 0116 11.37zm1.5-4.87h.01"></path>
+              </svg>
+            </a>
+            <a class="ml-3 text-white">
+              <svg fill="currentColor" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="0" class="w-5 h-5" viewBox="0 0 24 24">
+                <path stroke="none" d="M16 8a6 6 0 016 6v7h-4v-7a2 2 0 00-2-2 2 2 0 00-2 2v7h-4v-7a6 6 0 016-6zM2 9h4v12H2z"></path>
+                <circle cx="4" cy="4" r="2" stroke="none"></circle>
+              </svg>
+            </a>
+          </span>
+        </div>
+      </footer>
+
+
+
+</body>
+</html>
